@@ -1,10 +1,15 @@
-// // src/api/clothing.api.ts
-// import api from "../services/api";
-// import { ENDPOINTS } from "../services/endpoints";
+import api from "../services/api";
 
-// // eslint-disable-next-line @typescript-eslint/no-explicit-any
-// export const getAlbums = (params?: any) =>
-//   api.get(ENDPOINTS.ALBUM, { params });
+export const getAlbums = () => api.get("albums/");
 
-// export const getClothingCategories = () =>
-//   api.get(ENDPOINTS.CLOTHING_CATEGORY);
+export const getAlbumDetail = (slug: string) =>
+  api.get(`albums/${slug}/`);
+
+export const createAlbum = (data: any) =>
+  api.post("albums/", data);
+
+export const updateAlbum = (id: number, data: any) =>
+  api.put(`albums/${id}/`, data);
+
+export const deleteAlbum = (id: number) =>
+  api.delete(`albums/${id}/`);

@@ -1,10 +1,25 @@
-// src/api/clothing.api.ts
 import api from "../services/api";
-import { ENDPOINTS } from "../services/endpoints";
+import axiosClient from "./axiosClient.api";
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const getClothings = (params?: any) =>
-  api.get(ENDPOINTS.CLOTHING, { params });
+  api.get("clothings/", { params });
 
-export const getClothingCategories = () =>
-  api.get(ENDPOINTS.CLOTHING_CATEGORY);
+export const getClothingDetail = (id: number) =>
+  api.get(`clothings/${id}/`);
+
+export const createClothing = (formData: FormData) => {
+  return axiosClient.post("/clothings/", formData, {
+    headers: {
+      "Content-Type": "multipart/form-data",
+    },
+  });
+};
+
+export const updateClothing = (id: number, data: any) =>
+  api.put(`clothings/${id}/`, data);
+
+export const deleteClothing = (id: number) =>
+  api.delete(`clothings/${id}/`);
+
+export const getClothingCategories = (params?: any) =>
+  api.get("clothing-categories/", { params });

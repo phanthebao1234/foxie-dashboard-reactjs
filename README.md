@@ -1,18 +1,18 @@
-# TailAdmin React - Free React Tailwind Admin Dashboard Template
+# FoxieStudio React - Free React Tailwind Admin Dashboard Template
 
-TailAdmin is a free and open-source admin dashboard template built on **React and Tailwind CSS**, providing developers
+FoxieStudio is a free and open-source admin dashboard template built on **React and Tailwind CSS**, providing developers
 with everything they need to create a comprehensive, data-driven back-end,
 dashboard, or admin panel solution for upcoming web projects.
 
-With TailAdmin, you get access to all the necessary dashboard UI components, elements, and pages required to build a
+With FoxieStudio, you get access to all the necessary dashboard UI components, elements, and pages required to build a
 feature-rich and complete dashboard or admin panel. Whether you're building dashboard or admin panel for a complex web
-application or a simple website, TailAdmin is the perfect solution to help you get up and running quickly.
+application or a simple website, FoxieStudio is the perfect solution to help you get up and running quickly.
 
-![TailAdmin React.js Dashboard Preview](./banner.png)
+![FoxieStudio React.js Dashboard Preview](./banner.png)
 
 ## Overview
 
-TailAdmin provides essential UI components and layouts for building feature-rich, data-driven admin dashboards and
+FoxieStudio provides essential UI components and layouts for building feature-rich, data-driven admin dashboards and
 control panels. It's built on:
 
 - React 19
@@ -34,17 +34,17 @@ control panels. It's built on:
 
 ### Other Versions
 
-- [HTML Version](https://github.com/TailAdmin/tailadmin-free-tailwind-dashboard-template)
-- [Next.js Version](https://github.com/TailAdmin/free-nextjs-admin-dashboard)
-- [Vue.js Version](https://github.com/TailAdmin/vue-tailwind-admin-dashboard)
-- [Angular Version](https://github.com/TailAdmin/free-angular-tailwind-dashboard)
-- [Laravel Version](https://github.com/TailAdmin/tailadmin-laravel)
+- [HTML Version](https://github.com/FoxieStudio/tailadmin-free-tailwind-dashboard-template)
+- [Next.js Version](https://github.com/FoxieStudio/free-nextjs-admin-dashboard)
+- [Vue.js Version](https://github.com/FoxieStudio/vue-tailwind-admin-dashboard)
+- [Angular Version](https://github.com/FoxieStudio/free-angular-tailwind-dashboard)
+- [Laravel Version](https://github.com/FoxieStudio/tailadmin-laravel)
 
 ## Installation
 
 ### Prerequisites
 
-To get started with TailAdmin, ensure you have the following prerequisites installed and set up:
+To get started with FoxieStudio, ensure you have the following prerequisites installed and set up:
 
 - Node.js 18.x or later (recommended to use Node.js 20.x or later)
 
@@ -53,7 +53,7 @@ To get started with TailAdmin, ensure you have the following prerequisites insta
 Clone the repository using the following command:
 
 ```bash
-git clone https://github.com/TailAdmin/free-react-tailwind-admin-dashboard.git
+git clone https://github.com/FoxieStudio/free-react-tailwind-admin-dashboard.git
 ```
 
 > Windows Users: place the repository near the root of your drive if you face issues while cloning.
@@ -75,7 +75,7 @@ git clone https://github.com/TailAdmin/free-react-tailwind-admin-dashboard.git
 
 ## Components
 
-TailAdmin is a pre-designed starting point for building a web-based dashboard using React.js and Tailwind CSS. The
+FoxieStudio is a pre-designed starting point for building a web-based dashboard using React.js and Tailwind CSS. The
 template includes:
 
 - Sophisticated and accessible sidebar
@@ -181,15 +181,15 @@ A major update with comprehensive redesign and modern React patterns implementat
 
 ### Version 1.2.0 - [Apr 28, 2023]
 
-- Add Typescript in TailAdmin React.
+- Add Typescript in FoxieStudio React.
 
 ### Version 1.0.0 - Initial Release - [Mar 13, 2023]
 
-- Initial release of TailAdmin React.
+- Initial release of FoxieStudio React.
 
 ## License
 
-TailAdmin React.js Free Version is released under the MIT License.
+FoxieStudio React.js Free Version is released under the MIT License.
 
 ## Support
 

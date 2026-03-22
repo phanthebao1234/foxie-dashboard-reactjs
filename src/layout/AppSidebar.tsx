@@ -6,6 +6,7 @@ import {
   BoxCubeIcon,
   CalenderIcon,
   ChevronDownIcon,
+  ClothesIcon,
   GridIcon,
   HorizontaLDots,
   ListIcon,
@@ -22,7 +23,7 @@ type NavItem = {
   name: string;
   icon: React.ReactNode;
   path?: string;
-  subItems?: { name: string; path: string; pro?: boolean; new?: boolean }[];
+  subItems?: { name: string; path: string; pro?: boolean; new?: boolean, icon?: string }[];
 };
 
 const navItems: NavItem[] = [
@@ -50,6 +51,13 @@ const navItems: NavItem[] = [
     name: "Tables",
     icon: <TableIcon />,
     subItems: [{ name: "Basic Tables", path: "/basic-tables", pro: false }],
+  },
+  {
+    name: "Clothes",
+    icon: <ClothesIcon />,
+    subItems: [
+      { name: "Tất cả Trang phục", path: "/clothes", pro: false }, 
+      { name: "Thêm trang phục", path: "/clothes_new", pro: false}],
   },
   {
     name: "Pages",
@@ -308,14 +316,14 @@ const AppSidebar: React.FC = () => {
             <>
               <img
                 className="dark:hidden"
-                src="/images/logo/logo.svg"
+                src="/images/logo/logo-foxie.svg"
                 alt="Logo"
                 width={150}
                 height={40}
               />
               <img
                 className="hidden dark:block"
-                src="/images/logo/logo-dark.svg"
+                src="/images/logo/logo-foxie-dark.svg"
                 alt="Logo"
                 width={150}
                 height={40}
@@ -323,7 +331,7 @@ const AppSidebar: React.FC = () => {
             </>
           ) : (
             <img
-              src="/images/logo/logo-icon.svg"
+              src="/images/logo/logo-foxie-icon.svg"
               alt="Logo"
               width={32}
               height={32}
